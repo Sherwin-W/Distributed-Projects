@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Service Table</title>
+	</head>
+	<body>
+		This page is at: http://webstrar87.fulton.asu.edu/<br/>
+		This project is developed by: Kaylem Brown-Malone, Sherwin Wang
+		<table>
+			<tr>
+				<th>Provider name</th>
+				<th>Service Name, with input and output types</th>
+				<th>Required Service</th>
+				<th>Difficulty level</th>
+				<th>TryIt link</th>
+				<th>Service description</th>
+				<th>Actual resources used to implement the service</th>
+			</tr>
+			<tr>
+				<td>Kaylem Brown-Malone</td>
+				<td>GetNewsOnTopics(string[] topics) : returns string[]</td>
+				<td>yes</td>
+				<td>Easy</td>
+				<td><a href="http://webstrar87.fulton.asu.edu/page1/">TRYIT</a></td>
+				<td>This API can return up to 5 URLs for news stories related to given topics. Topics are provided in a “topics” query, comma-seperated.</td>
+				<td>Uses the NewsAPI API, and the provided NewsAPI package.</td>
+			</tr>
+			<tr>
+				<td>Kaylem Brown-Malone</td>
+				<td>GetAnnWindSpeeds(double latitude, double longitude) : returns double</td>
+				<td>yes</td>
+				<td>Easy</td>
+				<td><a href="http://webstrar87.fulton.asu.edu/page1/">TRYIT</a></td>
+				<td>This API can return the Annual wind speed (in m/s at 10m) for any given latitude and longitude point.</td>
+				<td>Uses the NASA POWER API, climatology W10MS endpoint.</td>
+			</tr>
+			<tr>
+				<td>Kaylem Brown-Malone</td>
+				<td>VideoSearchService(string topic) : returns string</td>
+				<td>no</td>
+				<td>Easy</td>
+				<td><a href="http://webstrar87.fulton.asu.edu/page1/">TRYIT</a></td>
+				<td>This API can return the top 5 Youtube videos for the given topic.</td>
+				<td>Uses Google's API.</td>
+			</tr>
+			<tr>
+				<td>Kaylem Brown-Malone</td>
+				<td>GenerateWorkoutService(string difficulty) : returns string</td>
+				<td>no</td>
+				<td>Easy</td>
+				<td><a href="http://webstrar87.fulton.asu.edu/page1/">TRYIT</a></td>
+				<td>This API returns a bodyweight workout with the given difficulty.</td>
+				<td>No external sources.</td>
+			</tr>
+			<tr>
+				<td>Kaylem Brown-Malone</td>
+				<td>WeightLoggingService(int weight, string apikey) : returns boolean</td>
+				<td>no</td>
+				<td>Easy</td>
+				<td><a href="http://webstrar87.fulton.asu.edu/page1/">TRYIT</a></td>
+				<td>This service is used to log a user's weight to their account. This test version checks for weight and apikey='test'.</td>
+				<td>No external sources.</td>
+			</tr>
+			<tr>
+				<td>Sherwin Wang</td>
+				<td>StockOpenPrice(string ticker, int month, int day, int year) : returns double</td>
+				<td>yes</td>
+				<td>Easy</td>
+				<td><a href="http://webstrar87.fulton.asu.edu/page4/">TRYIT</a></td>
+				<td>This service returns the open price of a stock given a TICKER and date.</td>
+				<td>Utilizes the polygon.io stock open price API.</td>
+			</tr>
+			<tr>
+				<td>Sherwin Wang</td>
+				<td>FindNearestStore(int zipcode, string storeName) : returns string</td>
+				<td>yes</td>
+				<td>Easy</td>
+				<td><a href="http://webstrar87.fulton.asu.edu/page4/">TRYIT</a></td>
+				<td>This service returns the nearest store given the zipcode and the store name.</td>
+				<td>Utilizes google geocode and places APIs.</td>
+			</tr>
+			<tr>
+				<td>Sherwin Wang</td>
+				<td>FindNearestGym(int zipcode) : returns string</td>
+				<td>no</td>
+				<td>Easy</td>
+				<td><a href="http://webstrar87.fulton.asu.edu/page4/">TRYIT</a></td>
+				<td>This service returns a string of names and addresses of the top 5 closest gyms given the zip code.</td>
+				<td>Utilizes google geocode and places APIs.</td>
+			</tr>
+			<tr>
+				<td>Sherwin Wang</td>
+				<td>FindRecipes(string ingredients) : returns string</td>
+				<td>no</td>
+				<td>Easy</td>
+				<td><a href="http://webstrar87.fulton.asu.edu/page4/">TRYIT</a></td>
+				<td>This service returns 5 names and images of recipes for the given ingredients. Ingredients are given in a list separated by commas.</td>
+				<td>Utilizes the spoontacular Recipe - Food - Nutrition API.</td>
+			</tr>
