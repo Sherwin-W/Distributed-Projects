@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Parks>
+  
+  <Park Type="Preserve" Founder="Grinnell">
+    <Owner>National Park Service</Owner>
+    <Place>Glacier National Park</Place>
+    <Reservation>
+      <Address>64 Grinnell Dr, West Glacier, MT 59936</Address>
+      <URL>https://www.nps.gov/glac/index.htm</URL>
+    </Reservation>
+    <NeighborStates>
+      <State>Idaho</State>
+      <State>Montana</State>
+      <State>Wyoming</State>
+    </NeighborStates>
+    <Established>1910</Established>
+  </Park>
+
+  <Park Type="Preserve" Founder="Roosevelt">
+    <Owner>National Park Service</Owner>
+    <Place>Grand Canyon National Park</Place>
+    <Reservation>
+      <Address>20 S Entrance Rd, Grand Canyon Village, AZ 86023</Address>
+      <URL>https://www.nps.gov/grca/index.htm</URL>
+    </Reservation>
+    <NeighborStates>
+      <State>Arizona</State>
+      <State>Nevada</State>
+      <State>Utah</State>
+    </NeighborStates>
+    <Established>1919</Established>
+  </Park>
+
+  <Park Type="Preserve" Founder="Grant">
+    <Owner>National Park Service</Owner>
+    <Place>Yellowstone National Park</Place>
+    <Reservation>
+      <Address>2 Barracks St, Yellowstone National Park, WY 82190</Address>
+      <URL>https://www.nps.gov/yell/index.htm</URL>
+    </Reservation>
+    <NeighborStates>
+      <State>Idaho</State>
+      <State>Montana</State>
+      <State>Wyoming</State>
+    </NeighborStates>
+    <Established>1872</Established>
+  </Park>
+
+  <Park Type="Preserve" Founder="Muir">
+    <Owner>National Park Service</Owner>
+    <Place>Yosemite National Park</Place>
+    <Reservation>
+      <Address>9035 Village Dr, Yosemite Valley, CA 95389</Address>
+      <URL>https://www.nps.gov/yose/index.htm</URL>
+    </Reservation>
+    <NeighborStates>
+      <State>California</State>
+      <State>Nevada</State>
+    </NeighborStates>
+    <Established>1890</Established>
+  </Park>
+
+  <Park Type="Preserve" Founder="Wilson">
+    <Owner>National Park Service</Owner>
+    <Place>Zion National Park</Place>
+    <Reservation>
+      <Address>Zion National Park, 1 Zion Park Blvd, Springdale, UT 84767</Address>
+      <URL>https://www.nps.gov/zion/index.htm</URL>
+    </Reservation>
+    <NeighborStates>
+      <State>Arizona</State>
+      <State>Nevada</State>
+      <State>Utah</State>
+    </NeighborStates>
+    <Established>1919</Established>
+  </Park>
+
+  <Park Type="Preserve" Founder="Coolidge">
+    <Owner>National Park Service</Owner>
+    <Place>Grand Teton National Park</Place>
+    <Reservation>
+      <Address>340 N Cache St, Jackson, WY 83001</Address>
+      <URL>https://www.nps.gov/grte/index.htm</URL>
+    </Reservation>
+    <NeighborStates>
+      <State>Idaho</State>
+      <State>Montana</State>
+      <State>Wyoming</State>
+    </NeighborStates>
+    <Established>1929</Established>
+  </Park>
+
+  <Park Type="Preserve" Founder="Roosevelt">
+    <Owner>National Park Service</Owner>
+    <Place>Olympic National Park</Place>
+    <Reservation>
+      <Address>1835 Black Lake Blvd SW, Olympia, WA 98512</Address>
+      <URL>https://www.nps.gov/olym/index.htm</URL>
+    </Reservation>
+    <NeighborStates>
+      <State>Oregon</State>
+      <State>Washington</State>
+    </NeighborStates>
+    <Established>1909</Established>
+  </Park>
+
+  <Park Type="Preserve" Founder="Hoover">
+    <Owner>National Park Service</Owner>
+    <Place>Arches National Park</Place>
+    <Reservation>
+      <Address>2282 Resource Blvd, Moab, UT 84532</Address>
+      <URL>https://www.nps.gov/arch/index.htm</URL>
+    </Reservation>
+    <NeighborStates>
+      <State>Arizona</State>
+      <State>Colorado</State>
+      <State>New Mexico</State>
+      <State>Utah</State>
+    </NeighborStates>
+    <Established>1929</Established>
+  </Park>
+
+  <Park Type="Preserve" Founder="Harding">
+    <Owner>National Park Service</Owner>
+    <Place>Bryce Canyon National Park</Place>
+    <Reservation>
+      <Address>UT-63, Bryce Canyon City, UT 84764</Address>
+      <URL>https://www.nps.gov/brca/index.htm</URL>
+    </Reservation>
+    <NeighborStates>
+      <State>Arizona</State>
+      <State>Nevada</State>
+      <State>Utah</State>
+    </NeighborStates>
+    <Established>1923</Established>
+  </Park>
+
+  <Park Type="Preserve" Founder="Harrison">
+    <Owner>National Park Service</Owner>
+    <Place>Sequoia National Park</Place>
+    <Reservation>
+      <Address>47050 Generals Hwy, Three Rivers, CA 93271</Address>
+      <URL>https://www.nps.gov/seki/index.htm</URL>
+    </Reservation>
+    <NeighborStates>
+      <State>California</State>
+      <State>Nevada</State>
+    </NeighborStates>
+    <Established>1890</Established>
+  </Park>
+</Parks>
